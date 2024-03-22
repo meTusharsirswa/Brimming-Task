@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.table_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  width: 100%;
+}
+.table_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#Id {
+  width: 10%;
+  padding: 3px 5px;
+
+}
+#Title {
+  width: 550px;
+  padding: 3px 5px;
+}
+#Title_content {
+  padding: 3px 5px;
+}
+#Id_content {
+  text-align: center;
+  padding: 3px 5px;
+
+}
+.table_buttons > button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 4px;
+}
+.table_buttons > button:hover {
+  background-color: aliceblue;
+}
